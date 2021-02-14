@@ -1,3 +1,5 @@
+@import './shared';
+
 .App {
   text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $Primary;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +27,28 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: $Secondary;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
+  0%   {
     transform: rotate(360deg);
+    height: 40vmin;
+  }
+  25%  {
+    transform: rotate(-360deg);
+    height: 20vmin;
+  }
+  50%  {
+    transform: rotate(360deg);
+    height: 40vmin;
+  }
+  75%  {
+    transform: rotate(-360deg);
+    height: 20vmin;
+  }
+  100% {
+    transform: rotate(360deg);
+    height: 40vmin;
   }
 }
