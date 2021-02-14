@@ -2,11 +2,11 @@
 
 ## Features
 
-Spacebar pans around screen.
-Search and filter as you type.
-Tags for URLs.
-Nested sub-containers.
-Google/Duckduckgo search only certain sites
+Spacebar pans around screen.\
+Search and filter as you type.\
+Tags for URLs.\
+Nested sub-containers.\
+Google/Duckduckgo search only certain sites.\
 
 
 
@@ -14,7 +14,10 @@ Google/Duckduckgo search only certain sites
 
 
 
-
+\
+\
+\
+\
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
