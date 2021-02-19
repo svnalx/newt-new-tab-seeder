@@ -45,7 +45,7 @@ Inspiration provided by Svalbard Global Seed Vault.
 - Node
 - NPM
 - Yarn
-- Testing
+- Testing - [Jest?](https://jestjs.io/docs/en/getting-started)
 - Webpack?
 
 
