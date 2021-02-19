@@ -3,26 +3,28 @@ A new way to think about URL bookmarks. It will be a highly interactive way of p
 
 Inspiration provided by Svalbard Global Seed Vault.
 
-## Features
+## Features / To Do
 
-- Spacebar pans around screen.
-- Search and filter as you type.
-- Google/Duckduckgo search only certain sites.
-- Nested sub-containers.
-- Recent URLs automatically go to top of seed vault.
-- Tags for URLs.
-- Spontaneous reminders of historical tabs.
-- Rate/score URL seeds/plants/seed vault.
-- Remembers scroll position on page and even points you to the exact sentence you should read next.
-- Shareable pods/packages.
-
-
-
+<ol>
+  <li>Remembers scroll position on page and even points you to the exact sentence you should read next.</li>
+  <li>Spacebar pans around screen.</li>
+  <li>Search and filter as you type.</li>
+  <li>Google/Duckduckgo search only certain sites.</li>
+  <li>Nested sub-containers.</li>
+  <li>Recent URLs automatically go to top of seed vault.</li>
+  <li>Tags for URLs.</li>
+  <li>Spontaneous reminders of historical tabs.</li>
+  <li>Rate/score URL seeds/plants/seed vault.</li>
+  <li>Shareable pods/packages.</li>
+</ol>
 
 ## Definitions
 
 *seed*
 : The building block URL. It does not have to be truncated to the domain name + TLD. For example, the seed could be the URL to the login page.
+
+*strain / variant*
+: Another URL based on the same domain as the seed. Useful for creating quick links to frequently visited endpoints of the same domain as the seed.
 
 *seed vault*
 : A collection of seeds.
