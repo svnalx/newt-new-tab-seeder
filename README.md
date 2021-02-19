@@ -26,7 +26,7 @@ Inspiration provided by Svalbard Global Seed Vault.
 *strain / variant*
 : Another URL based on the same domain as the seed. Useful for creating quick links to frequently visited endpoints of the same domain as the seed.
 
-*seed vault*
+*stash*
 : A collection of seeds.
 
 

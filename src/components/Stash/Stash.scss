@@ -1,0 +1,10 @@
+@import '../../assets/scss/partials/_variables';
+.stash {
+  display:inline-block;
+  height:400px;
+  width:400px;
+  background-color:$PrimaryLight2;
+  padding:10px;
+  margin-right:10px;
+  border-radius:2px 8px 2px 8px;
+}
