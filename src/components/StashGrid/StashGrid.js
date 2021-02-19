@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../assets/scss/style.scss';
+import '@scss/style.scss';
 import Stash from '../../components/Stash/Stash';
 import Container from 'react-bootstrap/Container';
 

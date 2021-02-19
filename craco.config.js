@@ -6,9 +6,9 @@ const path = require('path')
 module.exports = {
   webpack: {
     alias: {
-      react: path.resolve(__dirname, './src'),
-      react: path.resolve(__dirname, './node_modules'),
-      react: path.resolve(__dirname, './node_modules/react'),
+      '@scss': path.resolve(__dirname, './src/assets/scss'),
+      node: path.resolve(__dirname, 'node_modules'),
+      react: path.resolve(__dirname, 'node_modules/react'),
     },
   },
 }
