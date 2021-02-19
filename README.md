@@ -34,15 +34,20 @@ Inspiration provided by Svalbard Global Seed Vault.
 
 
 ## Tech Stack
+- HTML
+- SCSS
+- Bootstrap 5
+- JavaScript
+- Babel?
+- ESLint
 - React (create-react-app)
 - JSX
-- Bootstrap 5
-- ~~Material Design~~
-- SCSS
-- Testing
-- Yarn
-- NPM
 - Node
+- NPM
+- Yarn
+- Testing
+- Webpack?
+
 
 
 
