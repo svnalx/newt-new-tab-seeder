@@ -37,19 +37,22 @@ Inspired by [Svalbard Global Seed Vault](https://www.croptrust.org/our-work/sval
 : A collection of seeds.
 
 ## Tech Stack
-- HTML
-- SCSS
-- Bootstrap 5
-- JavaScript
-- ~~Babel~~
-- ESLint
 - React
 - create-react-app
 - JSX
+- JavaScript
+- ~~Babel~~
+- ESLint
+- Bootstrap 5
+- SCSS
 - Node
 - NPM
-- styled-components
-  - to theme React
+  - CRACO
+    - Configuration override without ejecting React
+  - Helmet
+    - for title and meta tags
+  - styled-components
+    - uses React's <code>\<ThemeProvider\></code> to apply a theme
 - Yarn
 - ~~Testing~~
   - [~~Jest~~](https://jestjs.io/docs/en/getting-started)

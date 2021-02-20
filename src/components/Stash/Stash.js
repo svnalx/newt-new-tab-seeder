@@ -5,8 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import styled from 'styled-components';
 
-{/* https://dev.to/aromanarguello/how-to-use-themes-in-styled-components-49h
-const Container = styled.div`
+const SCcontainer = styled.div`
   width: 100%;
   border: ${props => `1px solid ${props.theme.colors.onyx}`};
   background-color: ${props => props.theme.colors.lightBlue};
@@ -18,34 +17,42 @@ const Heading = styled.h1`
     isHeading ? fontSizes.large : fontSizes.small};
   color: ${({ theme: { colors } }) => colors.persianGreen};
 `;
-*/}
+
+const Thingy = styled.button`
+  width:500px;
+  background-color:purple;
+  ${props =>
+  props.primary &&
+  css`
+    background: palevioletred;
+    color: white;
+  `};
+`;
 
 //const Stash = () => {
 class Stash extends Component {
+
   constructor(props){
       super(props);
       console.log(this.props);
     }
+
   render() {
     return (
-
       <div className="stash">
 
         <Container bsPrefix="sm" fluid>
-          container
+
+          <Theme>
+            <SCcontainer>sc container</SCcontainer>
+            <Heading>A heading</Heading>
+          </Theme>
+
+          <Thingy>A thingy</Thingy>
+
         </Container>
 
-        {/*
-        <Theme>
-          <Container>
-            <Heading isHeading={true}>Hello World</Heading>
-            <h2>By the power of styled-components!</h2>
-          </Container>
-        </Theme>
-        */}
-
       </div>
-
     )
   }
 }

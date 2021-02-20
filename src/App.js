@@ -15,12 +15,18 @@ import Button from 'react-bootstrap/Button';
 
 class App extends Component {
 
+  constructor(props){
+      super(props);
+      console.log(this.props);
+    }
+
   componentDidMount() {
     console.todo("Write the rest of the code");
     console.log(process.env.NODE_ENV);
   }
 
   render() {
+
     return (
       <>
 
