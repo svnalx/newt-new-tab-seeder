@@ -6,11 +6,11 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import './components/Console-Debugging/Console-Debugging';
-import Nav from './components/Nav/Nav';
+import '@comps/Console-Debugging/Console-Debugging';
+import Nav from '@comps/Nav/Nav';
 import Button from 'react-bootstrap/Button';
-import StashGrid from './components/StashGrid/StashGrid';
-import './assets/scss/style.scss';
+import StashGrid from '@comps/StashGrid/StashGrid';
+import '@scss/style.scss';
 
 class App extends Component {
 

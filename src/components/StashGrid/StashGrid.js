@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '@scss/style.scss';
-import Stash from '../../components/Stash/Stash';
+import Stash from '@comps/Stash/Stash';
 import Container from 'react-bootstrap/Container';
 
 class StashGrid extends Component {

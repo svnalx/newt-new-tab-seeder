@@ -7,6 +7,7 @@ module.exports = {
   webpack: {
     alias: {
       '@scss': path.resolve(__dirname, './src/assets/scss'),
+      '@comps': path.resolve(__dirname, './src/components'),
       node: path.resolve(__dirname, 'node_modules'),
       react: path.resolve(__dirname, 'node_modules/react'),
     },
