@@ -5,7 +5,7 @@ On top of UI changes I have been wanting to make to similar products, I also pro
 
 Inspired by [Svalbard Global Seed Vault](https://www.croptrust.org/our-work/svalbard-global-seed-vault).
 
-| ![Mockup - Rough first sketch](mockup-rough-first-sketch.png) |
+| ![Mockup - Rough first sketch](./src/assets/img/mockup-rough-first-sketch.png) |
 |:--:|
 | *Rough first sketch, to give you an idea.* |
 
@@ -13,6 +13,7 @@ Inspired by [Svalbard Global Seed Vault](https://www.croptrust.org/our-work/sval
 
 <ol>
   <li>Remembers scroll position on page and even points you to the exact sentence you should read next.</li>
+  <ul><li>Screenshots the area for thumbnail</li></ul>
   <li>Spacebar pans around screen.</li>
   <li>Search and filter as you type.</li>
   <li>Google/Duckduckgo search only certain sites.</li>
@@ -40,12 +41,16 @@ Inspired by [Svalbard Global Seed Vault](https://www.croptrust.org/our-work/sval
 - SCSS
 - Bootstrap 5
 - JavaScript
-- Babel?
+- ~~Babel~~
 - ESLint
-- React (create-react-app)
+- React
+- create-react-app
 - JSX
 - Node
 - NPM
+- styled-components
+  - to theme React
 - Yarn
-- Testing - [Jest?](https://jestjs.io/docs/en/getting-started)
-- Webpack?
+- ~~Testing~~
+  - [~~Jest~~](https://jestjs.io/docs/en/getting-started)
+- ~~Webpack~~
